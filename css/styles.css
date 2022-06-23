@@ -9,24 +9,105 @@
     --title-size: 36px;
     --text-size: 14px;
 }
+body{
+    font-family: var(--main-font);
+
+}
+.list{
+    list-style: none;
+}
 
 .header{
-    background-color: --common-white;
-   /* width: 1170px; */
-  margin: 0 auto;
-  padding: 25px 215px 25px 215px;
+    background-color: var(--common-white);
+   padding: 0 215px 0 215px;
+  display: flex;
+  align-items: center;
+  /* height: 80px; */
+
 }
-.navigation{
-    color: var(--head-color);
-    text-decoration: none;
-}
+      
 .logo{
     color: var(--head-color);
     font-weight: bold;
     font-size: 26px;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    letter-spacing: 0.025em;
+    margin-right: 54px;
+  
 }
-
 .web{
-    color:var(--accent-color);
+    color: var(--accent-color);
 }
 
+.logo:hover, .logo:focus, .logo:active {
+    color: var(--accent-color);
+}
+.navigation-link{   
+   color: var(--head-color);
+    text-decoration: none;
+    font-size: var(--text-size);
+}
+
+.navigation-link:hover, .navigation-link:focus, .navigation-link:active 
+{color: var(--accent-color);
+
+}
+.navigation-list, .navigation{
+    display: flex;
+    align-items: center;
+
+}
+
+.navigation-item {
+    margin-right: 50px;
+
+}
+.contact-list{
+    font-size: var(--text-size);
+    display: flex;
+   }
+.mail-link{
+    text-decoration: none;
+    color:var(--accent-color);
+  
+    
+}
+.navigation{ margin-right: 331px;
+
+} 
+.hero{
+background-color: var(--primary-color);
+height: 600px;
+width: auto;
+
+}
+
+.tittle-hero{
+  color: var(--common-white);
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 60px;
+  width: 696px;
+  padding: 200px 450px 30px 450px ;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  
+}
+.button-hero{
+    margin-left: 700px;
+    background-color: var(--accent-color);
+    color: var(--common-white);
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    border-radius: 4px;
+    
+}
+.button-hero:hover .button-hero:focus{
+
+}
