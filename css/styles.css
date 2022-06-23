@@ -22,7 +22,7 @@ body{
    padding: 0 215px 0 215px;
   display: flex;
   align-items: center;
-  /* height: 80px; */
+   height: 80px;
 
 }
       
@@ -70,20 +70,19 @@ body{
 .mail-link{
     text-decoration: none;
     color:var(--accent-color);
-  
-    
 }
 .navigation{ margin-right: 331px;
 
 } 
 .hero{
 background-color: var(--primary-color);
-height: 600px;
+height: 600;
 width: auto;
 
 }
 
 .tittle-hero{
+    margin: 0;
   color: var(--common-white);
   font-size: 44px;
   font-weight: 900;
@@ -106,8 +105,6 @@ width: auto;
     text-align: center;
     letter-spacing: 0.06em;
     border-radius: 4px;
+    margin-bottom: 200px;
     
-}
-.button-hero:hover .button-hero:focus{
-
 }
