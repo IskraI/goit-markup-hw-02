@@ -55,14 +55,14 @@ a{
 .curent{
     color: var(--accent-color);
 }
-.navigation-link:hover, .navigation-link:focus{
+.navigation-link:hover, .navigation-link:focus, .contact-link:hover, .contact-link:focus{
     color: var(--accent-color);
+
 }
 .contact-link{
   color: var(--text-color);
   padding-right: 30px;
  }
- 
 .navigation-list, .navigation {
     display: flex;
     align-items: center;
