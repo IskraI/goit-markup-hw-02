@@ -154,6 +154,10 @@ width: auto;
     letter-spacing: 0.03em;
 
 }
+.we-doing-img:hover, .portfolio-img:hover, .we-doing-img:focus, .portfolio-img:focus{
+    filter: drop-shadow(5px 4px 4px rgba(0, 0, 0, 0.50));
+   
+}
 .team{
     margin: auto;
     width: auto;
@@ -281,3 +285,4 @@ padding: 60px 215px;
     letter-spacing: 0.03em;
     color: var(--text-color);
 }
+
