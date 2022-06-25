@@ -238,23 +238,23 @@ justify-content:space-between;
     margin: 94px 215px;
 }
 .portfolio-btn{
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 26px;
-text-align: center;
-letter-spacing: 0.03em;
-background: var(--secondary-color);
-color: var(--head-color);
-border: none;
-border-radius: 4px;
-padding: 6px 22px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    background: var(--secondary-color);
+    color: var(--head-color);
+    border: none;
+    border-radius: 4px;
+    padding: 6px 22px;
 
 }
 .portfolio-btn:active, .portfolio-btn:hover, .portfolio-btn:focus{
-color: var(--common-white);
-background-color: var(--accent-color);
+    color: var(--common-white);
+    background-color: var(--accent-color);
 
 } 
 .portfolio-title:{
@@ -265,10 +265,10 @@ background-color: var(--accent-color);
     color: var(--head-color);
 }
 .portfolio-description{
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
-letter-spacing: 0.03em;
-color: var(--text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
 }
 
