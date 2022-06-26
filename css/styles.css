@@ -96,7 +96,7 @@ width: auto;
     height: 50px;
     background-color: var(--accent-color);
     color: var(--common-white);
-    border: 1px solid var(--head-color);
+    /* border: 1px solid var(--head-color); */
     font-size: var(--btn-size);
     line-height: 1.88;
     text-align: center;
@@ -104,15 +104,16 @@ width: auto;
     border-radius: 4px;
     font-weight: 700;
     text-shadow: 1px  1px  1px var(--head-color);
+    cursor:pointer;
     /* margin: 0 auto;
    display: block; */
    
 }
-.button-hero:hover, .button-hero:focus{
+/* .button-hero:active{
     background-color:var(--common-white);
     color: var(--accent-color);
     border-color: var(--accent-color);
-}
+} */
 
 .team-list, .benefits-list, .we-doing-list{
     display: flex;
@@ -181,13 +182,17 @@ font-weight: 500;
  .footer-list{
     margin: auto;
     padding: 0;
+    line-height: 1.71;
    } 
 
-.footer-link{
+   .adress {
     color: var(--common-white);
-    line-height: 1.71;
      }
-.footer-link:hover, .footer-link:focus{
+.footer-contact{
+        color:rgba(255, 255, 255, 0.6);
+     }
+    .adress:hover, .adress:focus,
+     .footer-contact:hover,.footer-contact:focus{
     color: var(--accent-color);
 }
       
@@ -197,10 +202,10 @@ font-weight: 500;
  
  .portfolio-btn-list{
 display:flex; 
-align-items:center;
 width: 611px;
 justify-content:space-between;
 justify-items: 30px;
+text-align:center; 
 }
 .portfolio{
     margin: 94px 215px;
@@ -217,6 +222,7 @@ justify-items: 30px;
     border: none;
     border-radius: 4px;
     padding: 6px 22px;
+    cursor:pointer;
 
 }
 .portfolio-btn:active, .portfolio-btn:hover, .portfolio-btn:focus{
