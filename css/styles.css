@@ -13,7 +13,6 @@
 body {
 	font-family: Roboto, sans-serif;
 	font-size: 14px;
-	font-style: normal;
 	letter-spacing: 0.03em;
 	color: var(--text-color);
 	background-color: #ffffff;
@@ -38,6 +37,7 @@ body {
 /*навигация*/
 
 .site-nav .link {
+	font-weight: 500;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
 	color: var(--title-text-color);
@@ -45,6 +45,7 @@ body {
 
 /*контакты шапка*/
 .contact-header .link {
+	font-weight: 500;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
 	color: var(--text-color);
@@ -85,7 +86,7 @@ body {
 
 /*секции*/
 
-.visible-none {
+.visually-hidden {
 	/*скрываем заголовок - почему так*/
 	position: absolute;
 	width: 1px;
@@ -193,10 +194,4 @@ body {
 	font-size: 16px;
 	line-height: 1.88;
 	color: var(--text-color);
-}
-.portfolio-list .dscr:hover,
-.portfolio-list .dscr:focus,
-.portfolio-list .title:hover,
-.portfolio-list .title:focus {
-	color: var(--accent-color);
 }
